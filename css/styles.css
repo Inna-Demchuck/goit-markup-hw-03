@@ -2,7 +2,7 @@
 font-family: 'Roboto', sans-serif; */
 
 
-/* сброс стилей */
+/* базовой сброс стилей */
 
 h1,
 h2,
@@ -46,11 +46,16 @@ ol {
 }
 
 .container {
-    width: 1200px;
+    width: 1200;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.section {
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 :root {
@@ -90,6 +95,7 @@ body {
 
 .header-logo {
     color: var(--primary-dark);
+    margin-right: 93px;
 }
 
 .logo-section {
@@ -102,6 +108,26 @@ body {
 
 
 /* header */
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+/* .nav-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+} */
 
 .nav-link {
     font-weight: 500;
@@ -119,7 +145,19 @@ body {
     color: var(--accent-color);
 }
 
+.header-contact {
+    display: flex;
+    margin-left: auto;
+}
+
+
+/* .header-contact-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+} */
+
 .header-mail {
+    margin-right: 50px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -154,12 +192,12 @@ body {
 }
 
 .hero-title {
+    text-align: center;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    text-align: center;
     color: var(--primary-light);
 }
 
@@ -177,6 +215,10 @@ body {
 
 /* ection advantage */
 
+.list-advantage {
+    display: flex;
+}
+
 .title-advantage {
     font-size: 14px;
     font-weight: 700;
@@ -193,20 +235,30 @@ body {
 /* section examples  */
 
 .title-examples {
+    padding-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
 }
 
+.list-examples {
+    display: flex;
+}
+
 
 /* section our team */
 
 .title-team {
+    padding-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+}
+
+.list-team {
+    display: flex;
 }
 
 .list-title-team {
@@ -260,6 +312,10 @@ body {
 
 /* portfolio */
 
+.btn-list {
+    display: flex;
+}
+
 .btn {
     font-family: inherit;
     font-weight: 500;
@@ -276,6 +332,14 @@ body {
     background-color: var(--btn-secondary-color);
     border-radius: 4px;
     color: var(--primary-light);
+}
+
+
+/* list-portfolio */
+
+.list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .title-portfolio {
