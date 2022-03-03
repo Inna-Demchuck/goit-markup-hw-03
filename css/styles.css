@@ -424,7 +424,7 @@ body {
     line-height: 1.62;
     color: var(--main-color);
     cursor: pointer;
-    border-radius: 4px;
+    border: 0;
 }
 
 .btn:hover,
