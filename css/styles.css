@@ -113,6 +113,7 @@ body {
 
 .header {
     background-color: SandyBrown;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {
