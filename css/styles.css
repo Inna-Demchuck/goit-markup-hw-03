@@ -69,8 +69,8 @@ ol {
     --primary-light: #ffffff;
     --adress-color: rgba(255, 255, 255, 0.6);
     --btn-secondary-color: #188CE8;
-    --btn-color: #F5F4FA;
-    --btn-background-color: F5F4FA;
+    --btn-background-color: #F5F4FA;
+    --border-color: #ececec;
     /* theme */
     --dark-theme-color: #2f303a;
     /* text */
@@ -112,8 +112,8 @@ body {
 /* header */
 
 .header {
-    background-color: SandyBrown;
-    border-bottom: 1px solid #ECECEC;
+    /* background-color: SandyBrown; */
+    border-bottom: 1px solid var(--border-color);
 }
 
 .header-container {
@@ -237,7 +237,7 @@ body {
 /* ection advantage */
 
 .section-advantage {
-    background-color: Wheat;
+    /* background-color: Wheat; */
 }
 
 .list-advantage {
@@ -270,7 +270,7 @@ body {
 /* section examples  */
 
 .section-examples {
-    background-color: SandyBrown;
+    /* background-color: SandyBrown; */
     padding-bottom: 94px;
 }
 
@@ -296,7 +296,7 @@ body {
 /* section our team */
 
 .section-team {
-    background-color: Wheat;
+    /* background-color: Wheat; */
 }
 
 .title-team {
@@ -402,7 +402,7 @@ body {
 /* portfolio */
 
 .section-btn-list {
-    background-color: Wheat;
+    /* background-color: Wheat; */
 }
 
 .btn-list {
@@ -444,7 +444,7 @@ body {
 /* list-portfolio */
 
 .section-portfolio {
-    background-color: SandyBrown;
+    /* background-color: SandyBrown; */
     padding-top: 34px;
 }
 
@@ -464,6 +464,10 @@ body {
 
 .description-portfolio {
     padding: 20px 24px;
+    width: 370px;
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
 }
 
 .title-portfolio {
