@@ -60,8 +60,9 @@
 
         <h2 class="visually-hidden">Преимущества</h2>
 
-        <section class="section-advantage section">
+        <section class="section">
             <div class="container">
+                <h2 class="visually-hidden">Преимущества</h2>
                 <ul class="list-advantage list">
                     <li class="item-advantage">
                         <h3 class="title-advantage">Внимание к деталям</h3>
@@ -93,7 +94,7 @@
 
         <!-- section examples -->
 
-        <section class="section-examples">
+        <section class="section-examples section">
             <div class="container">
                 <h2 class="title-examples">Чем мы занимаемся</h2>
                 <ul class="list-examples list">
@@ -118,23 +119,32 @@
                 <ul class="list-team list">
                     <li class="item-team">
                         <img class="img-team" src="./images/our-team/Ihor_Demyanenko.jpg" alt="photo Ihor Demyanenko" width="270" height="260" />
-                        <h3 class="list-title-team">Игорь Демьяненко</h3>
-                        <p class="description-team" lang="en">Product Designer</p>
+                        <div class="block-description-team">
+                            <h3 class="list-title-team">Игорь Демьяненко</h3>
+                            <p class="description-team" lang="en">Product Designer</p>
+                        </div>
+
                     </li>
                     <li class="item-team">
                         <img class="img-team" src="./images/our-team/Olga_Repina.jpg" alt="photo Olha Repina" width="270" height="260" />
-                        <h3 class="list-title-team">Ольга Репина</h3>
-                        <p class="description-team" lang="en">Frontend Developer</p>
+                        <div class="block-description-team">
+                            <h3 class="list-title-team">Ольга Репина</h3>
+                            <p class="description-team" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="item-team">
                         <img class="img-team" src="./images/our-team/Nicolay_Tarasov.jpg" alt="photo Nikolay Tarasov" width="270" height="260" />
-                        <h3 class="list-title-team">Николай Тарасов</h3>
-                        <p class="description-team" lang="en">Marketing</p>
+                        <div class="block-description-team">
+                            <h3 class="list-title-team">Николай Тарасов</h3>
+                            <p class="description-team" lang="en">Marketing</p>
+                        </div>
                     </li>
                     <li class="item-team">
                         <img class="img-team" src="./images/our-team/Mychail_Ermakov.jpg" alt="photo Mykhail Ermakov" width="270" height="260" />
-                        <h3 class="list-title-team">Михаил Ермаков</h3>
-                        <p class="description-team" lang="en">UI Designer</p>
+                        <div class="block-description-team">
+                            <h3 class="list-title-team">Михаил Ермаков</h3>
+                            <p class="description-team" lang="en">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -146,9 +156,19 @@
     <footer class="footer">
         <div class="container">
             <a class="footer-logo logo link" href="" lang="en"><span class="logo-section">Web</span>Studio</a>
-            <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
-            <a class="footer-link-mail link" href="info@example.com">info@example.com</a>
-            <a class="footer-link-phone link" href="tel:+380991111111">+380991111111</a>
+            <adress>
+                <ul class="list">
+                    <li class="footer-nav">
+                        <a class="footer-adress">г. Киев, пр-т Леси Украинки, 26</a>
+                    </li>
+                    <li class="footer-nav">
+                        <a class="footer-link-mail link" href="info@example.com">info@example.com</a>
+                    </li>
+                    <li class="footer-nav">
+                        <a class="footer-link-phone link" href="tel:+380991111111">+380991111111</a>
+                    </li>
+                </ul>
+            </adress>
         </div>
     </footer>
 </body>
