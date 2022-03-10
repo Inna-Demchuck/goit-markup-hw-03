@@ -210,6 +210,7 @@ body {
 /* section hero */
 
 .section-hero {
+    margin: 0 auto;
     background-image: linear-gradient(rgb(47, 48, 58, 0.4), rgb(47, 48, 58, 0.4)), url(../images/fon/Img.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -255,10 +256,6 @@ body {
 
 /* ection advantage */
 
-.section-advantage {
-    /* background-color: Wheat; */
-}
-
 .list-advantage {
     display: flex;
     /* justify-content: space-between; */
@@ -266,6 +263,21 @@ body {
 
 .item-advantage {
     width: 270px;
+}
+
+.icon-advantage-wrapper {
+    display: flex;
+    margin-bottom: 30px;
+    height: 120px;
+    width: 270px;
+    background-color: var(--background-color);
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-advantage {
+    width: 70px;
+    height: 70px;
 }
 
 .item-advantage:not(:last-child) {
@@ -456,6 +468,15 @@ body {
 .item-portfolio {
     flex-basis: calc((100% - 90px) / 3);
     margin: 15px;
+}
+
+.link-portfolio {
+    display: block;
+}
+
+.link-portfolio:hover,
+.link-portfolio:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 4, 4, 0.06), 0px 1px 1px rgba(1, 4, 6, 0.16);
 }
 
 .img-portfolio {
