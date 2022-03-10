@@ -68,14 +68,14 @@ img {
     --primary-dark: #000000;
     --primary-light: #ffffff;
     --adress-color: rgba(255, 255, 255, 0.6);
-    --btn-color: #188CE8;
-    --background-color: #F5F4FA;
+    --btn-color: #188ce8;
+    --background-color: #f5f4fa;
     --border-color: #ececec;
     /* theme */
     --dark-theme-color: #2f303a;
     /* text */
     --main-font: 'Roboto', sans-serif;
-    --secondary-font: "Raleway", sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
 }
 
 body {
@@ -161,6 +161,11 @@ body {
     margin-right: 50px;
 }
 
+.icon-header {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
 .header-mail {
     display: block;
     padding-top: 24px;
@@ -176,6 +181,11 @@ body {
     color: var(--accent-color);
 }
 
+.icon-mail {
+    width: 16px;
+    height: 12px;
+}
+
 .header-phone {
     display: block;
     padding-top: 24px;
@@ -184,6 +194,11 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
+}
+
+.icon-phone {
+    width: 10px;
+    height: 16px;
 }
 
 .header-phone:hover,
@@ -195,6 +210,11 @@ body {
 /* section hero */
 
 .section-hero {
+    background-image: linear-gradient(rgb(47, 48, 58, 0.4), rgb(47, 48, 58, 0.4)), url(../images/fon/Img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
     padding: 200px 0;
     background-color: var(--dark-theme-color);
     text-align: center;
