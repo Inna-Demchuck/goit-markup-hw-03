@@ -344,8 +344,16 @@ body {
     text-align: center;
 }
 
+.item-team {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 4, 4, 0.14), 0px 2px 1px rgba(1, 4, 6, 0.20);
+}
+
 .item-team:not(:last-child) {
     margin-right: 30px;
+}
+
+.block-description-team {
+    background-color: var(--primary-light);
 }
 
 .list-title-team {
@@ -366,7 +374,52 @@ body {
     font-size: 16px;
     line-height: 1.19;
     color: var(--secondary-color);
+    margin-bottom: 16px;
 }
+
+
+/* social-link */
+
+.sotial-link {
+    display: flex;
+    justify-content: center;
+}
+
+.social-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--primary-light);
+    border-radius: 50%;
+}
+
+.social-link-icon:hover,
+.social-link-icon:focus {
+    background-color: var(--accent-color);
+}
+
+.social-icon-list:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-icon {
+    fill: #AFB1B8;
+    width: 20px;
+    height: 20px;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+    fill: var(--primary-light);
+}
+
+
+/* 
+.social-icon-list:not(last-child) {
+    margin-right: 10px;
+} */
 
 
 /* footer-logo */
